@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<title>Titanic Predict App</title>
+<style>
+    #wrapper {
+        text-align: center;
+    }
+</style>
+<div id="wrapper">
+    <form method="post">
+        {{ form.Sex.label }}<br>
+        {{ form.Sex }}
+        <br>
+        {{ form.Age.label }}<br>
+        {{ form.Age }}
+        <br>
+        {{ form.SibSp.label }}<br>
+        {{ form.SibSp }}
+        <br>
+        {{ form.Parch.label }}<br>
+        {{ form.Parch }}
+        <br>
+        {{ form.submit }}
+    </form>
+</div>
